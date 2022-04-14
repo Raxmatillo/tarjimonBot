@@ -6,5 +6,6 @@ async def set_default_commands(dp):
         [
             types.BotCommand("start", "Botni ishga tushirish"),
             types.BotCommand("help", "Yo'riqnoma"),
+            types.BotCommand("admin", "Adminga xabar yuborish")
         ]
     )
